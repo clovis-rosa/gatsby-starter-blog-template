@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react"
-import { FaBars, FaTimes } from "react-icons/fa"
+// import { FaBars, FaTimes } from "react-icons/fa"
 import { VscMenu, VscClose } from "react-icons/vsc"
 import { IconContext } from "react-icons/lib"
 import {
   MobileIcon,
   Nav,
   NavbarContainer,
-  NavIcon,
+  // NavIcon,
   NavItem,
   NavLinks,
   NavLogo,
