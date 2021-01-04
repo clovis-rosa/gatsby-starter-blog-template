@@ -17,7 +17,7 @@ export const Nav = styled.nav`
   z-index: 999;
 
   @media screen and (max-width: 960px) {
-    background: ${({ click }) => (click ? "#fff" : "transparent")};
+    background: ${({ click }) => (click ? "#fff" : "rgba(255, 255, 255, 0.8)")};
     transition: 0.8s all ease;
   }
 `
@@ -42,6 +42,10 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   z-index: 990;
+
+  /* @media screen and (max-width: 960px) {
+    color: white;
+  } */
 `
 
 export const NavIcon = styled(DiScala)`
@@ -89,7 +93,7 @@ export const NavMenu = styled.ul`
     opacity: 1;
     transition: all 0.4s ease-in-out;
     /* background: #fff; */
-    background: pink;
+    background: #b744b8;
     margin: 0 auto;
   }
 `
@@ -121,9 +125,10 @@ export const NavLinks = styled(Link)`
     display: table;
     font-size: 10rem; /* */
     font-weight: bold;
+    color: white; /* */
 
     &:hover {
-      color: #ff4040;
+      color: #ffd166;
       transition: all 0.3s ease;
     }
   }
