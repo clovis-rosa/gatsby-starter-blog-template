@@ -28,7 +28,9 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
+  max-width: 90%;
+  margin: 0 auto;
 `
 
 export const NavLogo = styled(Link)`
@@ -51,41 +53,55 @@ export const MobileIcon = styled.div`
 
   @media screen and (max-width: 960px) {
     display: block;
-    position: absolute;
+    /* position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 60%); */
     font-size: 1.8rem;
     cursor: pointer;
     z-index: 990;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `
 
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
+  justify-content: center;
   list-style: none;
   text-align: center;
+  margin: 0;
 
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
+    gap: 8rem; /* */
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
     height: 90vh;
     position: absolute;
     top: 80px;
     top: ${({ click }) => (click ? "100%" : "-1500px")};
+    left: 0; /* */
     opacity: 1;
     transition: all 0.4s ease-in-out;
-    background: #fff;
+    /* background: #fff; */
+    background: pink;
+    margin: 0 auto;
   }
 `
 
 export const NavItem = styled.li`
-  height: 80px;
+  /* height: 80px; */
+  padding: 0;
+  margin: 0;
 
   @media screen and (max-width: 960px) {
     width: 100%;
+    height: 80px;
   }
 `
 
@@ -103,6 +119,8 @@ export const NavLinks = styled(Link)`
     padding: 2rem;
     width: 100%;
     display: table;
+    font-size: 10rem; /* */
+    font-weight: bold;
 
     &:hover {
       color: #ff4040;
