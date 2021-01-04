@@ -1,99 +1,96 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's blog starter
-</h1>
+# [Gatsby Starter Blog Template] My Gastby Starter Markdown Blog Template
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+> Hi!
+> I costumized this template to build some of the side projects that I have in mind.
+> In this template you will find the 3 most recent posts on the Home Page and a Blog page with the all post list.
+> All the post are correctly pointing to "~site name~/blog/~post slug here~".
+> Eatch post have its own folder for better
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+Website deployed at Vercel.com - [** Stunning Theme - https://gatsby-starter-blog-template.vercel.app/**](https://gatsby-starter-blog-template.vercel.app/)
+
+---
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone this repo or simple download it.**
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+    Clone the master branch of this repo:
 
     ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    # clone master repo
+    git clone -b https://github.com/clovis-rosa/gatsby-starter-blog-template.git
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-blog-starter/
+    # navigate to the project folder
+    cd gatsby-starter-blog-template/
+    ```
+
+    Install the dependencies
+
+    ```shell
+    yarn install
+    # or
+    npm install
+    ```
+
+    Open the source code and start editing!
+
+    ```shell
+    code .
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
-
     Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the dependencies amd resources:
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+- Bootstrapped with [Gatsby](www.gatsbyjs.com).
+- Page transition and animations by [Framer-Motion](https://www.framer.com/motion/)
+- Styled with [Node-SASS](https://github.com/sass/node-sass)
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Others resources:
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
+- MDN - [The clamp() CSS function](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
+- Responsive Web Design [Media Queries](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
+- Images from [Unsplash.com](https://unsplash.com/)
 
 ## 🎓 Learning Gatsby
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/).
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+Here are some places to start:
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+### Themes
 
-## 💫 Deploy
+- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.com/docs/themes/).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+## 💫 Deploying
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
+- I recommend to use either [Zeit Now](https://now.sh) or [Netlify](https://netlify.com) for hosting your site.
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+---
+
+Screenshots:
+![Stunning Theme Home page](stunning-gatsby-theme.webp "Stunning Theme Home page")
+![Stunning Theme Product page](stunning-gatsby-theme02.webp "Stunning Theme Product page")
+![Stunning Theme Work page](stunning-gatsby-theme03.webp "Stunning Theme Work page")
+![Stunning Theme About page](stunning-gatsby-theme04.webp "Stunning Theme About page")
+
+---
+
+## 📖 License
+
+- This project is licensed under [the terms of the 0BSD license](LICENSE).
+
+### resources:
+
+- https://image-processing.gatsbyjs.org/
+- https://apex.sh/
+- https://foundation.mozilla.org/en/blog/how-create-stronger-safer-online-communities/
