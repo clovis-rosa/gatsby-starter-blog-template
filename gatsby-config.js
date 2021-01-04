@@ -43,6 +43,7 @@ module.exports = {
             },
           },
           `gatsby-remark-prismjs`,
+          `gatsby-plugin-styled-components`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
