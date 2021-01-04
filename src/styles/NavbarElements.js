@@ -81,7 +81,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     top: 80px;
     top: ${({ click }) => (click ? "100%" : "-1500px")};
