@@ -8,7 +8,7 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
-  console.log(posts)
+  // console.log(posts)
 
   if (posts.length === 0) {
     return (
