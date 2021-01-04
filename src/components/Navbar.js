@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
+import { VscMenu, VscClose } from "react-icons/vsc"
 import { IconContext } from "react-icons/lib"
 import {
   MobileIcon,
@@ -38,11 +39,12 @@ const Navbar = () => {
         <Nav active={scroll} click={click}>
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
-              <NavIcon />
-              EXPLOR
+              {/* <NavIcon /> */}
+              Branding
             </NavLogo>
             <MobileIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {/* {click ? <FaTimes /> : <FaBars />} */}
+              {click ? <VscClose /> : <VscMenu />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>

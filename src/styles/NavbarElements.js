@@ -39,6 +39,7 @@ export const NavLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  z-index: 990;
 `
 
 export const NavIcon = styled(DiScala)`
@@ -56,6 +57,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    z-index: 990;
   }
 `
 
