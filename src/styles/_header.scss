@@ -1,0 +1,61 @@
+.header {
+  // height: 100px;
+  padding: 20px 10px;
+
+  &-container {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+
+  &-inner {
+    position: relative;
+    z-index: 10;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo a {
+    // font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));
+    text-decoration: none;
+    color: black;
+  }
+
+  &-menu {
+    button {
+      border: none;
+      background: none;
+      outline: none;
+      padding: 0;
+      cursor: pointer;
+      font-size: 0.8rem;
+      mix-blend-mode: difference;
+
+      svg {
+        width: 30px;
+        height: 30px;
+        fill: black;
+      }
+    }
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen and (max-width: 1224px) {
+    /* Styles */
+  }
+
+  /* iPads (portrait) ----------- */
+  @media only screen and (max-width: 768px) {
+  }
+
+  /* Small Tablets (portrait) ----------- */
+  @media only screen and (max-width: 480px) {
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width: 320px) {
+  }
+}

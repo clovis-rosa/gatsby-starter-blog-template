@@ -48,6 +48,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("sass"),
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -70,6 +76,16 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: "gatsby-plugin-root-import",
+    //   options: {
+    //     "@src": path.join(__dirname, "src"),
+    //     "@components": path.join(__dirname, "src/components"),
+    //     "@pages": path.join(__dirname, "src/pages"),
+    //     "@styles": path.join(__dirname, "src/styles"),
+    //     "@utils": path.join(__dirname, "src/utils"),
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
