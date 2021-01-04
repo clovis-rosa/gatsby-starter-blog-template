@@ -1,14 +1,16 @@
 # [Gatsby Starter Blog Template] My Gastby Starter Markdown Blog Template
 
-> Hi!
-> I costumized this template to build some of the side projects that I have in mind.
-> In this template you will find the 3 most recent posts on the Home Page and a Blog page with the all post list.
-> All the post are correctly pointing to "~site name~/blog/~post slug here~".
-> Eatch post have its own folder for better
+> Hi there! 👋 This is a modified Gastsby Blog Template for my side projects.
 
-Website deployed at Vercel.com - [** Stunning Theme - https://gatsby-starter-blog-template.vercel.app/**](https://gatsby-starter-blog-template.vercel.app/)
+Website deployed version at Vercel - [**https://gatsby-starter-blog-template.vercel.app/**](https://gatsby-starter-blog-template.vercel.app/)
 
 ---
+
+### Here some details of what you will find inside:
+
+- In this template you will find the 3 most recent posts on the Home Page and a Blog page with the all post list
+- All the post are correctly pointing to "-site-name-/blog/-post-slug-"
+- Eatch post have its own folder with markdown and images
 
 ## 🚀 Quick start
 
@@ -51,15 +53,18 @@ Website deployed at Vercel.com - [** Stunning Theme - https://gatsby-starter-blo
 
 A quick look at the dependencies amd resources:
 
-- Bootstrapped with [Gatsby](www.gatsbyjs.com).
-- Page transition and animations by [Framer-Motion](https://www.framer.com/motion/)
-- Styled with [Node-SASS](https://github.com/sass/node-sass)
+- Bootstrapped with [Gatsby's blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
+- Responsive Navbar build with [Styled-Components](https://www.gatsbyjs.com/plugins/gatsby-styled-components-dark-mode/) TODO!
+- Still with the original Gatsby styles, but with [SASS](https://www.gatsbyjs.com/docs/how-to/styling/sass/#installing-and-configuring-sass) TODO!
 
-Others resources:
+What I still want to do:
 
-- MDN - [The clamp() CSS function](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
-- Responsive Web Design [Media Queries](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
-- Images from [Unsplash.com](https://unsplash.com/)
+- Remove all the original CSS from Gatsby and normalize
+- Remove all the extra unnecessary code
+- Create a Project Layout with json data
+- Gatsby Styled-Components Dark Mode [gatsby-styled-components-dark-mode](https://www.gatsbyjs.com/plugins/gatsby-styled-components-dark-mode/)
+- Install Gatsby Root Import Plugin [gatsby-plugin-root-import](https://www.gatsbyjs.com/plugins/gatsby-plugin-root-import/?=gatsby-plugin-root-import)
+- Build a custom Prism CSS for the code block [Highlighting Theme Generator](http://k88hudson.github.io/syntax-highlighting-theme-generator/www/)
 
 ## 🎓 Learning Gatsby
 
@@ -73,15 +78,13 @@ Here are some places to start:
 
 ## 💫 Deploying
 
-- I recommend to use either [Zeit Now](https://now.sh) or [Netlify](https://netlify.com) for hosting your site.
+- I recommend to use either [Vercel](https://vercel.com/) or [Netlify](https://netlify.com) for hosting your site.
 
 ---
 
 Screenshots:
-![Stunning Theme Home page](stunning-gatsby-theme.webp "Stunning Theme Home page")
-![Stunning Theme Product page](stunning-gatsby-theme02.webp "Stunning Theme Product page")
-![Stunning Theme Work page](stunning-gatsby-theme03.webp "Stunning Theme Work page")
-![Stunning Theme About page](stunning-gatsby-theme04.webp "Stunning Theme About page")
+![Gatsby Starter ome](screenshot_2021-01-04-home.png "home page")
+![Gatsby Starter Blog](screenshot_2021-01-04-blog.png "blog page")
 
 ---
 
@@ -91,6 +94,7 @@ Screenshots:
 
 ### resources:
 
-- https://image-processing.gatsbyjs.org/
-- https://apex.sh/
-- https://foundation.mozilla.org/en/blog/how-create-stronger-safer-online-communities/
+- Responsive Project with Gatsby Image - https://www.youtube.com/watch?v=ThzUUdIVr_I
+  Gatsby YT Project Github - https://github.com/briancodex/gatsby-website-v1
+- Screenshot Rocks - https://screenshot.rocks/app
+-
