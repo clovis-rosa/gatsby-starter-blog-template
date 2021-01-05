@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <section location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Blog" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
@@ -25,7 +25,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <section location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Blog" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
@@ -47,7 +47,7 @@ const BlogIndex = ({ data, location }) => {
                   </Link>
                   <h2>
                     <Link to={`/blog${post.fields.slug}`} itemProp="url">
-                      <span itemProp="headline">{title}</span>
+                      <span itemProp="headline">{post.frontmatter.title}</span>
                     </Link>
                   </h2>
                   <small>{post.frontmatter.date}</small>
