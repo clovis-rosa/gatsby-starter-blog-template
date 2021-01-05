@@ -2,6 +2,7 @@
 title: "'I'm not wearing tracksuits, I'm sexy!' Ivorian Doll, drill's first female star"
 date: "2021-01-01T18:00:00.284Z"
 description: "Having trained in the gossip-rich world of YouTube, the London rapper is breaking up the boys club with hilarious and brazen lyrics"
+image: "./5616.webp"
 ---
 
 “I didn’t think I would get anywhere, I can’t lie to you,” Ivorian Doll tells me, somewhat unexpectedly. “I mean, I wouldn’t have taken me seriously if I was on the other end.”

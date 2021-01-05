@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-          implementation: require('sass')
+        implementation: require("sass"),
       },
     },
     {
@@ -32,6 +32,8 @@ module.exports = {
         name: `assets`,
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -54,8 +56,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

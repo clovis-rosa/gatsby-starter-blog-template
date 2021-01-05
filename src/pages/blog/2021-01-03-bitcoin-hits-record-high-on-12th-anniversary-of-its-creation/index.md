@@ -2,6 +2,7 @@
 title: "Bitcoin hits record high on 12th anniversary of its creation"
 date: "2021-01-03T17:18:00.284Z"
 description: "Cryptocurrency passes $30,000 as financial institutions express growing interest"
+image: "./4408.webp"
 ---
 
 ![The price of bitcoin is rising as more investors see the cryptocurrency as a store of value. ](./4408.webp)

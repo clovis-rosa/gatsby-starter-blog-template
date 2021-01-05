@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+// import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import SEO from "../components/seo"
@@ -38,6 +39,12 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                 <header>
+                  {/* <Link to={`/blog${post.fields.slug}`}>
+                    <Img
+                      fluid={post.frontmatter.image.childImageSharp.fluid}
+                      alt={title}
+                    />
+                  </Link> */}
                   <h2>
                     <Link to={`/blog${post.fields.slug}`} itemProp="url">
                       <span itemProp="headline">{title}</span>
@@ -81,6 +88,13 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          # image {
+          #   childImageSharp {
+          #     fluid(maxWidth: 800) {
+          #       ...GatsbyImageSharpFluid
+          #     }
+          #   }
+          # }
         }
       }
     }

@@ -2,6 +2,7 @@
 title: "Seeing Color: A Matter of Nature, or Culture?"
 date: "2020-12-31T22:12:03.284Z"
 description: "The days have turned gray, the future feels black. We’re all seeing red, we’re all feeling blue"
+image: "./thisisengineering-raeng-unsplash.jpg"
 ---
 
 ![Some Technology Photo](./thisisengineering-raeng-unsplash.jpg)
